@@ -44,6 +44,7 @@ function setup() {
 	//Create a Ground
 	ground = Bodies.rectangle(width/2, 650, width, 10 , {isStatic:true} );
 	 World.add(world, ground);
+	
 	 
 	 
 	// box1 = Bodies.rectangle(400,650,200,20,{isStatic:true});
