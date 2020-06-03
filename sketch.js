@@ -46,13 +46,13 @@ function setup() {
 	 World.add(world, ground);
 	 
 	 
-	 box1 = Bodies.rectangle(400,650,200,20,{isStatic:true});
+	// box1 = Bodies.rectangle(400,650,200,20,{isStatic:true});
 	 World.add(world, box1);
 	 
-	 box2 = Bodies.rectangle(290,620,20,100,{isStatic:true});
+	 //box2 = Bodies.rectangle(290,620,20,100,{isStatic:true});
 	 World.add(world, box2);
 	 
-     box3 = Bodies.rectangle(510,620,20,100,{isStatic:true});
+    // box3 = Bodies.rectangle(510,620,20,100,{isStatic:true});
 	 World.add(world, box3);
 
 	Engine.run(engine);
